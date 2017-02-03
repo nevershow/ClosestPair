@@ -1,0 +1,200 @@
+approximate point ID: 32894
+Ratio = 1.813328
+approximate point ID: 49161
+Ratio = 1.042060
+approximate point ID: 47334
+Ratio = 1.143168
+approximate point ID: 40415
+Ratio = 1.470865
+approximate point ID: 41931
+Ratio = 1.234631
+approximate point ID: 51901
+Ratio = 1.046952
+approximate point ID: 53780
+Ratio = 1.635666
+approximate point ID: 48819
+Ratio = 1.139929
+approximate point ID: 7080
+Ratio = 1.413786
+approximate point ID: 13210
+Ratio = 1.529490
+approximate point ID: 28025
+Ratio = 1.597072
+approximate point ID: 14331
+Ratio = 1.712257
+approximate point ID: 21092
+Ratio = 1.195463
+approximate point ID: 25915
+Ratio = 1.649089
+approximate point ID: 18566
+Ratio = 1.256786
+approximate point ID: 28733
+Ratio = 1.258517
+approximate point ID: 25216
+Ratio = 1.000000
+approximate point ID: 8617
+Ratio = 1.069832
+approximate point ID: 29247
+Ratio = 1.000000
+approximate point ID: 44524
+Ratio = 1.001344
+approximate point ID: 15655
+Ratio = 1.151819
+approximate point ID: 52055
+Ratio = 1.351666
+approximate point ID: 27391
+Ratio = 1.058037
+approximate point ID: 18809
+Ratio = 1.278327
+approximate point ID: 34222
+Ratio = 1.118940
+approximate point ID: 56985
+Ratio = 1.192301
+approximate point ID: 37674
+Ratio = 1.214694
+approximate point ID: 41687
+Ratio = 1.000000
+approximate point ID: 46786
+Ratio = 1.109147
+approximate point ID: 57949
+Ratio = 1.173605
+approximate point ID: 18627
+Ratio = 1.147607
+approximate point ID: 44725
+Ratio = 1.377664
+approximate point ID: 51143
+Ratio = 1.000000
+approximate point ID: 56550
+Ratio = 1.527539
+approximate point ID: 40166
+Ratio = 1.281151
+approximate point ID: 29313
+Ratio = 1.131513
+approximate point ID: 49981
+Ratio = 1.144804
+approximate point ID: 25601
+Ratio = 1.000000
+approximate point ID: 1573
+Ratio = 1.466321
+approximate point ID: 6437
+Ratio = 1.461085
+approximate point ID: 31849
+Ratio = 1.282174
+approximate point ID: 51497
+Ratio = 1.242848
+approximate point ID: 2223
+Ratio = 1.287003
+approximate point ID: 29844
+Ratio = 1.377763
+approximate point ID: 52679
+Ratio = 1.540589
+approximate point ID: 15465
+Ratio = 1.107924
+approximate point ID: 36609
+Ratio = 1.343822
+approximate point ID: 56940
+Ratio = 1.516842
+approximate point ID: 29503
+Ratio = 1.462878
+approximate point ID: 5367
+Ratio = 1.014886
+approximate point ID: 33077
+Ratio = 1.217066
+approximate point ID: 21488
+Ratio = 1.150542
+approximate point ID: 27594
+Ratio = 1.000000
+approximate point ID: 57806
+Ratio = 1.201671
+approximate point ID: 40561
+Ratio = 1.192760
+approximate point ID: 45590
+Ratio = 1.000000
+approximate point ID: 55813
+Ratio = 1.228779
+approximate point ID: 38986
+Ratio = 1.207816
+approximate point ID: 52448
+Ratio = 1.624412
+approximate point ID: 36517
+Ratio = 1.397709
+approximate point ID: 42528
+Ratio = 1.456941
+approximate point ID: 53914
+Ratio = 1.203346
+approximate point ID: 36209
+Ratio = 1.199337
+approximate point ID: 23240
+Ratio = 1.299658
+approximate point ID: 22992
+Ratio = 1.405953
+approximate point ID: 47331
+Ratio = 1.523841
+approximate point ID: 47451
+Ratio = 1.169844
+approximate point ID: 40658
+Ratio = 1.395464
+approximate point ID: 23305
+Ratio = 1.386238
+approximate point ID: 15493
+Ratio = 1.000000
+approximate point ID: 43203
+Ratio = 1.030191
+approximate point ID: 21522
+Ratio = 1.236994
+approximate point ID: 54264
+Ratio = 1.435596
+approximate point ID: 34740
+Ratio = 1.031528
+approximate point ID: 24997
+Ratio = 1.038827
+approximate point ID: 56933
+Ratio = 1.000000
+approximate point ID: 32759
+Ratio = 1.656886
+approximate point ID: 25882
+Ratio = 1.499171
+approximate point ID: 31427
+Ratio = 1.120651
+approximate point ID: 40604
+Ratio = 1.614647
+approximate point ID: 38077
+Ratio = 1.073941
+approximate point ID: 53417
+Ratio = 1.255603
+approximate point ID: 56010
+Ratio = 1.279405
+approximate point ID: 26917
+Ratio = 1.407318
+approximate point ID: 11923
+Ratio = 1.345932
+approximate point ID: 59
+Ratio = 1.052660
+approximate point ID: 43646
+Ratio = 1.000000
+approximate point ID: 52677
+Ratio = 1.139979
+approximate point ID: 3707
+Ratio = 1.011541
+approximate point ID: 16566
+Ratio = 1.034868
+approximate point ID: 32704
+Ratio = 1.463709
+approximate point ID: 6483
+Ratio = 1.360674
+approximate point ID: 44430
+Ratio = 1.238848
+approximate point ID: 29895
+Ratio = 1.495515
+approximate point ID: 19305
+Ratio = 1.320923
+approximate point ID: 52500
+Ratio = 1.181154
+approximate point ID: 21221
+Ratio = 1.102175
+approximate point ID: 56077
+Ratio = 1.250109
+approximate point ID: 11731
+Ratio = 1.305966
+approximate point ID: 23448
+Ratio = 1.000000
