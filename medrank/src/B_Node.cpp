@@ -6,9 +6,9 @@
 // 将节点对应的文件中的一个块（页面）的数据读入内存
 // -------------------------------------------------------------------
 void B_Node::restore(B_Tree *b_tree_, int block_) {
-    b_tree = b_tree_;				// init <b_tree>
-    block_index = block_;			// init <block_index>
-    dirty = false;					// init <dirty>
+    b_tree = b_tree_;               // init <b_tree>
+    block_index = block_;           // init <block_index>
+    dirty = false;                  // init <dirty>
 
                                     // get block length
     int b_len = b_tree->get_file()->get_blocklength();

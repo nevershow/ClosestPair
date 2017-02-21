@@ -21,7 +21,7 @@ BlockFile::BlockFile(char* name, int b_length) {
         fwrite_number(block_length); // size of a node
         fwrite_number(0);            // number of nodes
 
-        // ʣ�µĿռ������
+        // Ê£ÏÂµÄ¿Õ¼äÌî³äÁã
         char* buffer = NULL;
         int len = block_length - (int)ftell(fp);
         buffer = new char[len];

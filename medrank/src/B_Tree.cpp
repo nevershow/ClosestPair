@@ -7,25 +7,25 @@
 // 将文件的基本信息读入内存中一个B_Tree类型的对象中
 // -------------------------------------------------------------------
 void B_Tree::restore(char * fname) {
-	// -------------------------------------------------------------------------
-	//  It doesn't matter to initialize blocklength to 0.
-	//  After reading file, <blocklength> will be reinitialized by file.
-	// -------------------------------------------------------------------------
+    // -------------------------------------------------------------------------
+    //  It doesn't matter to initialize blocklength to 0.
+    //  After reading file, <blocklength> will be reinitialized by file.
+    // -------------------------------------------------------------------------
 
-	// init <file>
-	file = new BlockFile(fname, 0);
-	root = nullptr;
+    // init <file>
+    file = new BlockFile(fname, 0);
+    root = nullptr;
 
-	// -------------------------------------------------------------------------
-	//  Read the content after first 8 bytes of first block into <header>
-	// -------------------------------------------------------------------------
-	char* header = new char[file->get_blocklength()];
-	file->read_header(header);     // read remain bytes from header
-	read_header(header);            // init <root> from <header>
-	if (header != nullptr) {           // release space
-    	delete[] header;
-    	header = nullptr;
-  	}
+    // -------------------------------------------------------------------------
+    //  Read the content after first 8 bytes of first block into <header>
+    // -------------------------------------------------------------------------
+    char* header = new char[file->get_blocklength()];
+    file->read_header(header);     // read remain bytes from header
+    read_header(header);            // init <root> from <header>
+    if (header != nullptr) {           // release space
+        delete[] header;
+        header = nullptr;
+    }
 }
 
 // -------------------------------------------------------------------

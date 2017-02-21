@@ -30,7 +30,7 @@ int getObjectID(int pairIndex, B_Node *block) {
 // 初始化50个投票者的h和l指针所在页面
 // -------------------------------------------------------------------
 void InitializeTwoPointers(int & h_pairindex, int & l_pairindex, int & h_blockindex, int & l_blockindex, B_Node* & h_block, B_Node* & l_block,
-                           double queryData, int treeIndex) {
+    double queryData, int treeIndex) {
     B_Tree *b_Tree = new B_Tree();
 
     char temp[10];
@@ -91,7 +91,7 @@ void InitializeTwoPointers(int & h_pairindex, int & l_pairindex, int & h_blockin
 // 判断h指针指向键值对是否更接近查询点
 // -------------------------------------------------------------------
 bool IsHCloser(const int h_pairindex, const int h_blockindex, const int l_pairindex,
-               const int l_blockindex, double value, B_Node *h_block, B_Node *l_block) {
+    const int l_blockindex, double value, B_Node *h_block, B_Node *l_block) {
     if (h_blockindex == -1) {
         return false;
     }
@@ -180,7 +180,7 @@ int medrank(unsigned short *queryObject, int D, int N) {
 
     for (int i = 0; i < M; ++i) {
         InitializeTwoPointers(h_pairindex[i], l_pairindex[i], h_blockindex[i],
-                              l_blockindex[i], h_block[i], l_block[i], queryProjections[i], i + 1);
+            l_blockindex[i], h_block[i], l_block[i], queryProjections[i], i + 1);
     }
 
     // Initialize frequencies
@@ -203,7 +203,7 @@ int medrank(unsigned short *queryObject, int D, int N) {
     while (true) {
         for (int i = 0; i < M; ++i) {
             if (IsHCloser(h_pairindex[i], h_blockindex[i], l_pairindex[i],
-                          l_blockindex[i], queryProjections[i], h_block[i], l_block[i])) {
+                l_blockindex[i], queryProjections[i], h_block[i], l_block[i])) {
                 flag = getObjectID(h_pairindex[i], h_block[i]);
                 LeftShift(h_pairindex[i], h_blockindex[i], h_block[i], b_Tree[i]);
             }
@@ -284,15 +284,15 @@ void TestMedrank(int D, int N, int qn, const char* QuerySetFileName) {
         minRatio = MIN(minRatio, ratio);
         maxRatio = MAX(maxRatio, ratio);
         averageRatio += ratio;
-        fprintf(output, "Ratio = %lf\n", ratio);
+        fprintf(output, "Ratio = %f\n", ratio);
         time3 = clock();
 
         cANNQueryTIme += (time2 - time1) * 1.0 / CLOCKS_PER_SEC;
         calcRatioTime += (time3 - time2) * 1.0 / CLOCKS_PER_SEC;
     }
-    printf("Min Ratio = %lf\n", minRatio);
-    printf("Max Ratio = %lf\n", maxRatio);
-    printf("Average Ratio = %lf\n", averageRatio / 100);
+    printf("Min Ratio = %f\n", minRatio);
+    printf("Max Ratio = %f\n", maxRatio);
+    printf("Average Ratio = %f\n", averageRatio / 100);
 
     delete []queryObject;
     fclose(QuerySet);

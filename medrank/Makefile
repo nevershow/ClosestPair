@@ -1,9 +1,9 @@
-CXX = g++ -std=c++11 -O3
+CXX = g++ -std=c++11 -O3 -lm
 SRCS = src/block_file.cpp src/B_Node.cpp src/B_Tree.cpp src/PreProcess.cpp src/medrankAlgorithm.cpp src/main.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 medrank: $(OBJS)
-	$(CXX) -o medrank $(OBJS)
+	$(CXX) -lm -o medrank $(OBJS)
 
 main: src/main.cpp
 medrankAlgorithm: src/medrankAlgorithm.h

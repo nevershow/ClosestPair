@@ -35,10 +35,10 @@ int main(int argc, char const *argv[]) {
     time1 = clock();
     TestMedrank(D, N, qn, qFile);
 
-    printf("Indexing time: %lf s\n", (time1 - time0) * 1.0 / CLOCKS_PER_SEC);
-    printf("c-ANN query time: %lf s\n", cANNQueryTIme);
-    printf("calculate ratio time: %lf s\n", calcRatioTime);
-    printf("Average I/O Cost = %lf\n", IOCost * 1.0 / 100);
+    printf("Indexing time: %f s\n", (time1 - time0) * 1.0 / CLOCKS_PER_SEC);
+    printf("c-ANN query time: %f s\n", cANNQueryTIme);
+    printf("calculate ratio time: %f s\n", calcRatioTime);
+    printf("Average I/O Cost = %f\n", IOCost * 1.0 / 100);
 
     return 0;
 }
